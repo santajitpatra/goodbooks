@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html {
+background-color: var(--gray2);
+/* background-image: var(--background-gradient); */
+  color: var(--black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --background-dark: #0093E9;
+  --background-gradient: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  --black: #000;
+  --white: #fff;
+  --gray1: #D1D5DB;
+  --gray2: #efefef;
+  
+}
+
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--gray2);
+}
+
+
+.book_name {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid var(--gray1);
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+
+}
+#book_genre {
+
+    cursor: pointer;
+    background: #E5E7EB;
+    border-radius: 0.5rem;
+    padding: 0.5rem  1rem;
+    border: 1px solid var(--black);
+    margin: 1rem 0.3rem;
+
+}
